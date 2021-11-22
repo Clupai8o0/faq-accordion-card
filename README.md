@@ -51,4 +51,4 @@ Users should be able to:
 
 - Github - [@Clupai8o0](https://www.github.com/Clupai8o0)
 - Frontend Mentor - [@Clupai8o0](https://www.frontendmentor.io/profile/Clupai8o0)
-- Twitter - [@Clupai](https://www.twitter.com/Clupai)
+- Twitter - [@Clupai8o0](https://www.twitter.com/Clupai8o0)
