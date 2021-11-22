@@ -1,0 +1,96 @@
+main.container {
+	width: 80rem;
+	height: 43rem;
+	border-radius: 2rem;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	box-shadow: 0 15px 30px var(--clr-txt-select);
+}
+main.container > section {
+	width: 50%;
+	height: 100%;
+}
+
+img#hero-mob,
+img#bg-mob {
+	display: none;
+}
+
+/* illustration image */
+section.illustration {
+	position: relative;
+	background: url("../images/illustration-woman-online-desktop.svg"),
+		url("../images/bg-pattern-desktop.svg");
+	background-size: 480px, 800px;
+	background-repeat: no-repeat, no-repeat;
+	background-position-x: -7rem, -34rem;
+	background-position-y: 5rem, -15rem;
+}
+section.illustration > img#box {
+	position: absolute;
+	left: -25%;
+	top: 38%;
+}
+
+/* FAQ */
+section.faq {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	/* justify-content: center; */
+	padding-top: 5rem;
+}
+section.faq > h1.title {
+	font-size: 30px;
+	font-weight: var(--fw2);
+	color: var(--clr-attention);
+}
+
+section.faq > div.faqs {
+	width: 80%;
+}
+section.faq > div.faqs div.question {
+	position: relative;
+}
+div.question {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+div.question:hover {
+	cursor: pointer;
+}
+div.question > img {
+	width: 12px;
+	height: 8px;
+}
+div.faqs div hr {
+	border-top: 1px solid var(--bg-line);
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+div.question p {
+	font-size: 14px;
+	margin: 12px 0;
+	color: var(--clr-txt-select);
+	transition: 0.1s linear;
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+div.question p:hover {
+	color: var(--clr-highlight);
+	transition: 0.2s linear;
+}
+
+div.answer > p {
+	width: 90%;
+	margin-top: 0;
+	margin-bottom: 2rem;
+}

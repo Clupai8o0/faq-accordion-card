@@ -1,0 +1,42 @@
+:root {
+  --bg-grd-1: hsl(273, 75%, 66%);
+  --bg-grd-2: hsl(240, 73%, 65%);
+
+  --bg-line: hsl(240, 5%, 91%);
+
+  --clr-txt: hsl(240, 6%, 50%);
+  --clr-txt-select: hsl(237, 12%, 33%);
+  --clr-attention: hsl(238, 29%, 16%);
+  --clr-highlight: hsl(14, 88%, 65%);
+
+  --fw1: 400;
+  --fw2: 700;
+}
+
+* {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  color: var(--clr-txt);
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  background: linear-gradient(180deg, var(--bg-grd-1), var(--bg-grd-2));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*? global classes */
+.select { color: var(--clr-attention) !important; font-weight: var(--fw2) !important; }
+.hidden { display: none; }
+.up {
+  transform: rotate(180deg);
+}
+.down {
+  transform: rotate(0deg);
+}
