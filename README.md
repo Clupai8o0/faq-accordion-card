@@ -10,7 +10,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -30,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://clupai8o0.github.io/faq-accordion-card/)
 
 ## My process
 
